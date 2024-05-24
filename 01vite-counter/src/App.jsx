@@ -7,6 +7,14 @@ function App() {
     // counter = counter + 1;
     console.log("value Added", counter);
     setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
   };
   const deleteValue = () => {
     // counter = counter - 1;
